@@ -1,0 +1,26 @@
+# Obsidian local session (do not sync)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache/
+.trash/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets & env
+.env
+.env.*
+*.pem
+*.key
+secrets/
+**/secrets/
+
+# Runtime / build
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+.runtime/
